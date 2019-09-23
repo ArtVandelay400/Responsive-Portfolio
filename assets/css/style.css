@@ -22,7 +22,7 @@ h1{
     border: 1px solid white;
     float: left;
     margin-bottom:0;
-    margin-left: 15%;
+    margin-left: 5%;
     margin-top: 0;
     color:white;
     text-align: center;
@@ -35,7 +35,7 @@ Contact{
     padding: 25px 10px 10px 10px;
     font-family:Arial, Helvetica, sans-serif;
     color:#777777;
-    margin-right: 15%
+    margin-right: 5%
     
 }
 portfolio{
@@ -90,12 +90,13 @@ a:link {
     font-family:Arial, Helvetica, sans-serif;
     color:#777777;
     margin-top: 7%;
-    margin-left: 15%;
+    margin-left: 5%;
 }
 .clearfix::after {
     content: " ";
     display: block;
     clear: both;
+    margin-top:15%;
   }
 img{
     float:left;
@@ -216,27 +217,36 @@ input.message{
     padding:20px 0 0 0;
   }
 @media screen and (max-width: 640px){
-  h1{
-    position: left static;
-    float: none;
-    max-width: 100%;
-    width: 100%;
-    margin-left: 0%; 
-    background-color:#4aaaa5;
+    h1{
+      position: left static;
+      float: none;
+      max-width: 100%;
+      width: 100%;
+      margin-left: 0%; 
+      background-color:#4aaaa5;
+    }
+    .nav1{
+      position:static;
+      float: none;
+      max-width: 100%;
+      width: 100%;
+    }
+    Contact{
+      margin-right:30%;
+    }
+    .square{
+      width:85%;
+      height:80%;
+      margin:5%;
+    }
+    img{
+      float:left;
+      width:100%;
+      height: auto;
+      padding: 5px 25px 5px 0px;
+   
   }
-  .nav1{
-    position:static;
-    float: none;
-    max-width: 100%;
-    width: 100%;
   }
-  Contact{
-    margin-right:30%;
-  }
-  .square{
-    margin-left:10%;
-  }
-}
 @media screen and (max-width: 768px){
   h1{
     max-width: 100%;
@@ -250,11 +260,11 @@ input.message{
     position: center static;
     float: none;
     max-width: 100%;
-    width: 100%;
-    margin-left: 0; 
   }
   .square{
-    margin-left:10%;
+    width:85%;
+    height:80%;
+    margin:5%;
   }
 }
 @media screen and (max-width: 980px){
@@ -265,8 +275,5 @@ input.message{
     padding: 25px 10px 10px 10px;
     border: 1px solid white;
     float: left;
-  }
-  .square{
-    margin-left:13%;
   }
   }
